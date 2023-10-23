@@ -5,4 +5,3 @@ GROUP MEMBERS:
 * Lance Jeremie Jason
 * Dave Maurece Rivas
 * JM Tiongco
-# term-1-finals--proj
