@@ -1,11 +1,15 @@
 #include<iostream>
 using namespace std;
 
-class helloworld
+class dave
 {
     public:
-    void hello_world()
+    void dave_code()
     {
+        cout<<"Sample";
+        cout<<"Sample";
+        cout<<"Sample";
+        cout<<"Sample";
         cout<<"Sample";
     }
 };
