@@ -1,4 +1,5 @@
 #include<iostream>
+#include"Dave.h"
 using namespace std;
 
 class helloworld
@@ -7,6 +8,9 @@ class helloworld
     void hello_world()
     {
         cout<<"Sample Out";
+        system("pause");
+        dave *hw = new dave();
+                    hw->dave_code();
     }
 };
 
