@@ -12,7 +12,7 @@ class UserCredentials
     {
     char response;
     const string USERNAME="admin";
-	const string PASSWORD="password";
+	const string PASSWORD="0000";
 	string username,password;
 	bool user_validated=false;
 
@@ -30,8 +30,8 @@ class UserCredentials
                     //usleep(1000); //FOR UNIX SYSTEMS
                     system("cls");
 					user_validated=true;
-                    helloworld *hw = new helloworld();
-                    hw->hello_world();
+                    acc_gen *ag = new acc_gen();
+                    ag->account();
 				}else //FALSE
 				{
 					cout<<"Wrong credentials"<<endl;

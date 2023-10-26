@@ -2,12 +2,12 @@
 #include"main-menu.h"
 using namespace std;
 
-class helloworld
+class acc_gen
 {
     public:
-    void hello_world()
+    void account()
     {
-        cout<<"Sample Out";
+        cout<<"Sample Out"<<endl;
         system("pause");
         dave *hw = new dave();
                     hw->dave_code();
