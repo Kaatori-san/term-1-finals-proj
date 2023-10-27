@@ -7,9 +7,16 @@ using namespace std;
 
 main()
 {
-    intro *pi = new intro();
-    pi->program_intro();
+    system("cls");
+    cout<<endl;
+    cout<<"\t|-----------|";
+    cout<<"\n\t|  BANKING  |";
+	cout<<"\n\t|  SYSTEM   |";
+    cout<<"\n\t|-----------|"<<endl<<endl;
+	system("pause");
 
     menu *mm = new menu();
-    mm->main_menu();  
+    mm->main_menu();
+    
+      
 }
